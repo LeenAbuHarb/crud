@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="card">
+ 
+    <div class="head">
+      <h2>CRUD</h2>
+      <p>PRODUCT MANAGMENT SYSTEM</p>
+
+    </div>
+    <div class="input"> <input type="text" placeholder=" title" id="title">
+        <div class="mony">
+            <input onkeyup="getTotal()" type="number" placeholder=" price" id="price">
+            <input onkeyup="getTotal()" type="number" placeholder=" texes" id="texes">
+            <input onkeyup="getTotal()" type="number" placeholder=" ads" id="ads">
+            <input onkeyup="getTotal()" type="number" placeholder=" discount" id="discount">
+            <small onkeyup="getTotal()
+            
+            "  id="total">4578</small>
+        </div>
+        <!-- <input type="number" placeholder="count" id=" counts"> -->
+        <input type="number" id="counts" placeholder=" count">
+        <input type="text" id="categoryy" placeholder=" category">
+        <!-- <input type="text" placeholder="category" id=" categoryy"> -->
+        <button id="submit">create</button>
+        </div>
+         <div class="output">
+            <div class="search">
+                <input onkeyup="Searchhh(this.value)" type="text" id="seeearch" placeholder=" Search">
+                <div id="bottonSearch">
+                    <button onclick="SearchMood(this.id)" id="searchtitle"  >Search By Title</button>
+                    <button onclick="SearchMood(this.id)" id="searcategory" >Search By Category</button>
+                </div>
+
+                <div id="deleteAll"></div>
+                <table>
+                    <tr>
+                        <th>id</th>
+                        <th>title</th>
+                        <th>price</th>
+                        <td>ads </td>
+                        <th>taxes</th>
+                        <th>descount</th>
+                        <th>category</th>
+                        <td>total</td>
+
+                    </tr>
+                    <tbody id="tbody">
+                   
+                        
+                    </tbody>
+                   </table>
+            </div>
+            
+         </div></div>
+   
+
+</div>
+<script src="index.js"></script>
+</body>
+</html>

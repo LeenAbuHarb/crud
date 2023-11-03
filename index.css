@@ -1,0 +1,110 @@
+body{
+    color: white;
+     background-color: rgb(24, 24, 24);
+ }
+ .card{
+     width: 80%;
+ margin: auto;
+ }
+ .head{
+     
+     color: rgb(255, 255, 255);
+     text-align: center;
+     margin:0 auto;
+     padding: 2px;
+ }
+ .input input{
+     width: 100%;
+     height: 29px;
+     outline: none;
+     border: none;
+     background-color: #111;
+     margin: 4px 0;
+     border-radius: 8px;
+     color: white;
+ }
+ .input input:focus{
+     background-color: #000;
+     transform: scale(1.1);
+ }
+ .mony input{
+     width: 20%;
+ }
+ #total{
+     background-color: rgb(185, 4, 4);
+     padding: 5px 2px;
+     border-radius: 4px;
+     color: white;
+ }
+ #total::before{
+ content:'Total:' ;
+ 
+ }
+ #submit{
+     width: 100%;
+     height: 30px;
+     border-radius: 20px;
+     border: 0;
+     cursor: pointer;
+     color: white;
+     background-color: rgb(60, 1, 99);
+     transition:0.5s ;
+ 
+ }
+ div #deleteAll{
+    
+  
+        margin: 20px 0;
+        width: 2361px;
+    
+ }
+
+ 
+ 
+ 
+ #submit:hover{
+     background-color:rgb(83, 4, 136) ;
+     letter-spacing: 1px;
+ }
+ button{
+     background-color: rgb(60, 1, 99);
+     color: white;
+     width: 100%;
+     height: 30px;
+     border-radius: 20px;
+     border: 0;
+     cursor: pointer;
+     transition:0.5s ;
+ }
+ button:hover{
+     background-color:rgb(83, 4, 136) ;
+     letter-spacing: 1px;
+ }
+ .search input{
+     width: 100%;
+     height: 29px;
+     outline: none;
+     border: none;
+     background-color: #111;
+     margin: 4px 0;
+     border-radius: 8px;
+     color: white;
+ }
+
+ .search input:focus{
+    background-color: #000;
+    transform: scale(1.1);}
+ 
+ #bottonSearch{
+     display: flex;
+     justify-content: space-between;
+ }
+ .search button{
+     width: 45%;
+ }
+ table{
+     width: 100%;
+     text-align: center;
+     margin: 10px 0;
+ }
+ 
